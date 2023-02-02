@@ -1,0 +1,23 @@
+# 2022/5/12 维护内容
+
+今天推出了两款箱子：<mark style="color:green;">**粘液科技宝箱**</mark> 和 <mark style="color:red;">**刷怪笼宝箱**</mark>
+
+<mark style="color:green;">**粘液科技宝箱**</mark>
+
+钥匙价格：1000点券
+
+奖品预览：
+
+<img src="../../../.gitbook/assets/粘液科技宝箱.png" alt="" data-size="original">
+
+\*概率请前往游戏内奇幻商店预览
+
+<mark style="color:red;">**刷怪笼宝箱**</mark>
+
+钥匙价格：1500点券
+
+奖品预览：
+
+![](../../../.gitbook/assets/刷怪笼宝箱.png) ？
+
+\*概率请前往游戏内奇幻商店预览
