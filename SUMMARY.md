@@ -4,6 +4,7 @@
 
 ## 教程 <a href="#zhinan" id="zhinan"></a>
 
+* [常见问题/常用指令](zhinan/chang-jian-wen-ti-chang-yong-zhi-ling.md)
 * [领地](zhinan/quan-di.md)
 
 ## 🍁 四季 <a href="#siji" id="siji"></a>
@@ -14,7 +15,7 @@
 * [冬天](siji/dong-tian.md)
 * [温度/日历/时间](siji/wen-du-ri-li-shi-jian.md)
 
-## 维护日志 <a href="#UpdateLogs" id="UpdateLogs"></a>
+## 维护日志 <a href="#updatelogs" id="updatelogs"></a>
 
 * [2023](UpdateLogs/2023/README.md)
   * [一月](UpdateLogs/2023/yi-yue/README.md)
