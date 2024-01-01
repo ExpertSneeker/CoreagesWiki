@@ -17,6 +17,9 @@
 
 ## 维护日志 <a href="#updatelogs" id="updatelogs"></a>
 
+* [2024](updatelogs/2024/README.md)
+  * [一月](updatelogs/2024/yi-yue/README.md)
+    * [2024/1/1 维护内容](updatelogs/2024/yi-yue/202411-wei-hu-nei-rong.md)
 * [2023](UpdateLogs/2023/README.md)
   * [九月](updatelogs/2023/jiu-yue/README.md)
     * [2023/9/6\~7 维护内容](updatelogs/2023/jiu-yue/2023967-wei-hu-nei-rong.md)
