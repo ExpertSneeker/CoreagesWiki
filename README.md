@@ -11,5 +11,5 @@
 本文档维护者
 
 1. ExpertSneeker(老狗)
-2. X\_DOU
+2. _Ix_Love
 3. GardeniaBlow

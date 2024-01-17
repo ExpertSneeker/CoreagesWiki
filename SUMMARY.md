@@ -156,4 +156,4 @@
     * [2018/9/8 维护内容](UpdateLogs/2018/jiu-yue/201898-wei-hu-nei-rong.md)
   * [八月](UpdateLogs/2018/ba-yue/README.md)
     * [2018/8/27 起源](UpdateLogs/2018/ba-yue/2018827-qi-yuan.md)
-* [远古の起源](UpdateLogs/no.md)
+* [远古の起源](UpdateLogs/about)
