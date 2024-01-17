@@ -5,22 +5,22 @@
 ## 教程 <a href="#zhinan" id="zhinan"></a>
 
 * [常见问题/常用指令](zhinan/chang-jian-wen-ti-chang-yong-zhi-ling.md)
-* [领地](zhinan/quan-di.md)
+* [领地](zhinan/residence.md)
 
 ## 🍁 四季 <a href="#siji" id="siji"></a>
 
-* [春天](siji/spring.md)
-* [夏天](siji/summer.md)
-* [秋天](siji/qiu-tian.md)
-* [冬天](siji/dong-tian.md)
-* [温度/日历/时间](siji/wen-du-ri-li-shi-jian.md)
+* [春天](reason/spring.md)
+* [夏天](reason/summer.md)
+* [秋天](reason/fall.md)
+* [冬天](reason/dong-tian.md)
+* [温度/日历/时间](reason/temperature-and-date.md)
 
 ## 维护日志 <a href="#updatelogs" id="updatelogs"></a>
 
 * [2024](updatelogs/2024/README.md)
-  * [一月](updatelogs/2024/yi-yue/README.md)
-    * [2024/1/16 维护内容](updatelogs/2024/yi-yue/2024116-wei-hu-nei-rong.md)
-    * [2024/1/1 维护内容](updatelogs/2024/yi-yue/202411-wei-hu-nei-rong.md)
+  * [一月](updatelogs/2024/January/README.md)
+    * [2024/1/16 维护内容](updatelogs/2024/January/2024116-wei-hu-nei-rong.md)
+    * [2024/1/1 维护内容](updatelogs/2024/January/202411-wei-hu-nei-rong.md)
 * [2023](UpdateLogs/2023/README.md)
   * [九月](updatelogs/2023/jiu-yue/README.md)
     * [2023/9/6\~7 维护内容](updatelogs/2023/jiu-yue/2023967-wei-hu-nei-rong.md)
@@ -145,7 +145,7 @@
     * [2018/10/22 维护内容](UpdateLogs/2018/shi-yue/20181022-wei-hu-nei-rong.md)
     * [2018/10/3 维护内容](UpdateLogs/2018/shi-yue/2018103-wei-hu-nei-rong.md)
     * [2018/10/1 维护内容](UpdateLogs/2018/shi-yue/2018101-wei-hu-nei-rong.md)
-  * [九月](UpdateLogs/2018/jiu-yue/README.md)
+  * [九月](UpdateLogs/2018/september/README.md)
     * [2018/9/30 维护内容](UpdateLogs/2018/jiu-yue/2018930-wei-hu-nei-rong.md)
     * [2018/9/26 维护内容](UpdateLogs/2018/jiu-yue/2018926-wei-hu-nei-rong.md)
     * [2018/9/24 维护内容](UpdateLogs/2018/jiu-yue/2018924-wei-hu-nei-rong.md)
@@ -154,6 +154,6 @@
     * [2018/9/16 维护内容](UpdateLogs/2018/jiu-yue/2018916-wei-hu-nei-rong.md)
     * [2018/9/10 维护内容](UpdateLogs/2018/jiu-yue/2018910-wei-hu-nei-rong.md)
     * [2018/9/8 维护内容](UpdateLogs/2018/jiu-yue/201898-wei-hu-nei-rong.md)
-  * [八月](UpdateLogs/2018/ba-yue/README.md)
+  * [八月](UpdateLogs/2018/august/README.md)
     * [2018/8/27 起源](UpdateLogs/2018/ba-yue/2018827-qi-yuan.md)
-* [远古の起源](updatelogs/no.md)
+* [远古の起源](updatelogs/about.md)
