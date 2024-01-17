@@ -9,8 +9,8 @@
 
 ## 🍁 四季 <a href="#siji" id="siji"></a>
 
-* [春天](siji/chun-tian.md)
-* [夏天](siji/xia-tian.md)
+* [春天](siji/spring.md)
+* [夏天](siji/summer.md)
 * [秋天](siji/qiu-tian.md)
 * [冬天](siji/dong-tian.md)
 * [温度/日历/时间](siji/wen-du-ri-li-shi-jian.md)
@@ -156,4 +156,4 @@
     * [2018/9/8 维护内容](UpdateLogs/2018/jiu-yue/201898-wei-hu-nei-rong.md)
   * [八月](UpdateLogs/2018/ba-yue/README.md)
     * [2018/8/27 起源](UpdateLogs/2018/ba-yue/2018827-qi-yuan.md)
-* [远古の起源](UpdateLogs/about)
+* [远古の起源](updatelogs/no.md)
