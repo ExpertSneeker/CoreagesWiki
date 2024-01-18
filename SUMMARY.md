@@ -4,7 +4,7 @@
 
 ## 教程 <a href="#zhinan" id="zhinan"></a>
 
-* [常见问题/常用指令](guide/faq)
+* [常见问题/常用指令](guide/faq.md)
 * [领地](guide/residence.md)
 
 ## 🍁 四季 <a href="#siji" id="siji"></a>
