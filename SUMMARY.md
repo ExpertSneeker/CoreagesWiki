@@ -2,12 +2,12 @@
 
 * [Coreages Wiki](README.md)
 
-## 教程 <a href="#zhinan" id="zhinan"></a>
+## 教程 <a href="#guide" id="guide"></a>
 
 * [常见问题/常用指令](guide/faq.md)
 * [领地](guide/residence.md)
 
-## 🍁 四季 <a href="#siji" id="siji"></a>
+## 🍁 四季 <a href="#reason" id="reason"></a>
 
 * [春天](reason/spring.md)
 * [夏天](reason/summer.md)
