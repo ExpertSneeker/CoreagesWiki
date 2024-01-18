@@ -6,10 +6,8 @@
 
 感谢你看到这个，此文档将带你更加深入的了解远古之心！
 
-
-
 本文档维护者
 
 1. ExpertSneeker(老狗)
-2. _Ix_Love
-3. GardeniaBlow
+2. GardeniaBlow
+3. \_Ix\_Love
