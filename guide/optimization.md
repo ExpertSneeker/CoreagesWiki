@@ -4,7 +4,7 @@ description: 提高游戏帧率。
 
 # 优化
 如何查看自己的帧率
-游戏内按
+游戏内按F3![查看FPS](../.gitbook/images/residence/FPS)
 
 ## 在Minecraft游戏中的措施
 要提高帧率，多数建议都是配置游戏选项菜单，可以通过在游戏内按Esc打开。
