@@ -1,6 +1,7 @@
 ---
-description: 提高游戏帧率
+description: 提高游戏帧率。
 ---
+
 # 优化
 
 ## 在Minecraft中的措施
