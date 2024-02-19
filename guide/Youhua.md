@@ -18,7 +18,7 @@
 * 游戏中，远离玩家和实体较多的地方
 ## 使用优化MOD(模组)
 
-# 在Minecrat外的措施
+# 在Minecraft外的措施
 * 在游戏启动器中为Minecraft分配更多的内存
 * 打开`Windows任务管理器` → `详细信息`→ 找到`javaw.exe`（Minecraft程序）
   右键点击它并设置它的优先级为`高` ！不是实时！
