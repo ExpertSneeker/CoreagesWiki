@@ -6,6 +6,7 @@
 
 * [常见问题/常用指令](guide/faq.md)
 * [领地](guide/residence.md)
+* [客户端优化指南](guide/optimization.md)
 
 ## 🍁 四季 <a href="#reason" id="reason"></a>
 
@@ -18,6 +19,8 @@
 ## 维护日志 <a href="#updatelogs" id="updatelogs"></a>
 
 * [2024](UpdateLogs/2024/README.md)
+  * [二月](UpdateLogs/2024/February/README.md)
+    * [2024/2/19 维护内容](UpdateLogs/2024/February/20240219.md)
   * [一月](UpdateLogs/2024/January/README.md)
     * [2024/1/31 维护内容](UpdateLogs/2024/January/20240131.md)
     * [2024/1/27 维护内容](UpdateLogs/2024/January/20240127.md)
