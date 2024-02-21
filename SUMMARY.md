@@ -4,7 +4,8 @@
 
 ## 教程 <a href="#guide" id="guide"></a>
 
-* [常见问题/常用指令](guide/faq.md)
+* [常用指令](guide/command.md)
+* [服务器常见问题](guide/faq.md)
 * [领地](guide/residence.md)
 * [客户端优化指南](guide/optimization.md)
 
