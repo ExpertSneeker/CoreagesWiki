@@ -4,8 +4,9 @@
 
 ## 教程 <a href="#guide" id="guide"></a>
 
-* [常见问题/常用指令](guide/faq.md)
 * [领地](guide/residence.md)
+* [常用指令](guide/command.md)
+* [服务器常见问题](guide/FAQ.md)
 * [客户端优化指南](guide/optimization.md)
 
 ## 🍁 四季 <a href="#reason" id="reason"></a>
