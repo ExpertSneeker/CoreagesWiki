@@ -9,7 +9,7 @@
 * [服务器常见问题](guide/faq.md)
 * [客户端优化指南](guide/optimization.md)
 
-## <img src=".gitbook/images/slimefun.png" alt="" data-size="original"> 粘液教程/wiki <a href="#slimefun" id="slimefun"></a>
+## <img src=".gitbook/images/slimefun.png" alt="" data-size="original"> Slimefun 粘液科技教程 <a href="#slimefun" id="slimefun"></a>
 
 * <a href="https://minecraft.fandom.com/zh/wiki/Minecraft_Wiki" title="mcwiki">原版wiki</a>
 
