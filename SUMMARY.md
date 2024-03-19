@@ -2,14 +2,21 @@
 
 * [Coreages Wiki](README.md)
 
-## 教程 <a href="#guide" id="guide"></a>
+## 🎮教程 <a href="#guide" id="guide"></a>
 
 * [领地](guide/residence.md)
 * [常用指令](guide/command.md)
 * [服务器常见问题](guide/faq.md)
 * [客户端优化指南](guide/optimization.md)
 
-## 🍁 四季 <a href="#reason" id="reason"></a>
+## <img src=".gitbook/images/slimefun.png" alt="" data-size="original"> 粘液教程/wiki <a href="#slimefun" id="slimefun"></a>
+
+* <a href="https://minecraft.fandom.com/zh/wiki/Minecraft_Wiki" title="mcwiki">原版wiki</a>
+
+* [](slimefun/1.md)
+
+
+## 🍁四季 <a href="#reason" id="reason"></a>
 
 * [春天](reason/spring.md)
 * [夏天](reason/summer.md)
@@ -17,7 +24,7 @@
 * [冬天](reason/winter.md)
 * [温度/日历/时间](reason/temperature-and-date.md)
 
-## 维护日志 <a href="#updatelogs" id="updatelogs"></a>
+## <img src=".gitbook/images/commandblock.png" alt="" data-size="original"> 维护日志 <a href="#updatelogs" id="updatelogs"></a>
 
 * [2024](updatelogs/2024/README.md)
   * [二月](updatelogs/2024/february/README.md)
