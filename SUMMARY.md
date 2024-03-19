@@ -13,10 +13,11 @@
 
 * <a href="https://minecraft.fandom.com/zh/wiki/Minecraft_Wiki" title="mcwiki">原版wiki</a>
 
-* [粘液教程](slimefun/1.md)
+* [粘液教程](slimefun/README.md)
+  * [入门基础与多方快结构](1.1.md)
 
 
-## 🍁四季 <a href="#reason" id="reason"></a>
+## 四季 <a href="#reason" id="reason"></a>
 
 * [春天](reason/spring.md)
 * [夏天](reason/summer.md)
