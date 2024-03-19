@@ -9,5 +9,5 @@
 本文档维护者
 
 1. ExpertSneeker(老狗)
-2. GardeniaBlow
-3. \_Ix\_Love
+2. GardeniaBlow(紫薯)
+3. \_Ix\_Love(玖)
