@@ -15,7 +15,7 @@
 
 * [粘液教程](slimefun/README.md)
   * [入门基础与多方快结构](slimefun/1.1.md)
-
+  * [正在赶工...](slimefun/1.2.md)
 
 ## 四季 <a href="#reason" id="reason"></a>
 
