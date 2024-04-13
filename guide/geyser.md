@@ -21,16 +21,16 @@ description: 在这里你将学习如何使用基岩版登录远古之心
 ### 第二步：
 点击 `Login to Bedrock` 登录基岩版正版账户
 
-![account-link-1.png](../.gitbook/images/geyser/account-link-1.png)
+![登录基岩版账户](../.gitbook/images/geyser/account-link-1.png)
 
-![account-link-1.png](../.gitbook/images/geyser/account-link-2.png)
+![登录微软账户](../.gitbook/images/geyser/account-link-2.png)
 
 ### 第三步：
 登陆成功后如图所示, 再点击 `Login to Java` 登录Java正版账户
 
-![account-link-1.png](../.gitbook/images/geyser/account-link-3.png)
+![登录Java账户](../.gitbook/images/geyser/account-link-3.png)
 
 ### 第四步：
 显示如下页面表示大功告成！现在使用基岩版登陆后ID为Java版正版ID
 
-![account-link-1.png](../.gitbook/images/geyser/account-link-3.png)
+![successfully](../.gitbook/images/geyser/account-link-4.png)
