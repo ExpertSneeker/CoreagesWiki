@@ -14,8 +14,6 @@ description: 在这里你将学习如何使用基岩版登录远古之心
 
 添加之后即可进入服务器, 游戏ID为基岩版正版ID
 
-![如图显示我目前的FPS为408](../.gitbook/images/FPS.png)
-
 ## 如何使用Java版正版ID在基岩版登录？
 ### 第一步：
 访问 https://link.geysermc.org/method/online
