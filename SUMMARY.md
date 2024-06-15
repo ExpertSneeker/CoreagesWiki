@@ -5,9 +5,9 @@
 ## 🎮初入远古之心 <a href="#guide" id="guide"></a>
 * [注册账号](Newplayer/1.md)
 * [新手礼包](Newplayer/2.md)
-* [每日礼包](Newplayer/3.md)
-* [头衔系统](Newplayer/4.md)
-* [货币介绍](Newplayer/5.md)
+* [货币介绍](Newplayer/3.md)
+* [称号/权限组](Newplayer/4.md)
+* [每日礼包](Newplayer/5.md)
 
 ## 🎮教程 <a href="#guide" id="guide"></a>
 
