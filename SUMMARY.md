@@ -3,8 +3,8 @@
 * [Coreages Wiki](README.md)
 
 ## 🎮初入远古之心 <a href="#guide" id="guide"></a>
-* [账号注册](Newplayer/1.md)
-* [2](Newplayer/2.md)
+* [注册账号](Newplayer/1.md)
+* [新手礼包](Newplayer/2.md)
 * [3](Newplayer/3.md)
 
 ## 🎮教程 <a href="#guide" id="guide"></a>
