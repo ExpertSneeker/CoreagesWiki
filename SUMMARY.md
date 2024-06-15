@@ -2,7 +2,7 @@
 
 * [Coreages Wiki](README.md)
 
-## 🎮初入远古之心 <a href="#guide" id="guide"></a>
+## ☀初入远古之心 <a href="#guide" id="guide"></a>
 * [注册账号](Newplayer/1.md)
 * [新手礼包](Newplayer/2.md)
 * [货币介绍](Newplayer/3.md)
