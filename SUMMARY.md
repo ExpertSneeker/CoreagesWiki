@@ -2,12 +2,32 @@
 
 * [Coreages Wiki](README.md)
 
-## 😊初入远古之心 <a href="#guide" id="guide"></a>
+## 🎉初入远古之心 <a href="#guide" id="guide"></a>
+* [了解远古之心](Newplayer/KnowCoreages/Coreages1.md)
+  * [服务器简介](Newplayer/KnowCoreages/Coreages1.md)
+  * [服务器玩法](Newplayer/KnowCoreages/Coreages3.md)
+  * [服务器截图](Newplayer/KnowCoreages/Coreages4.md)
+  * [远古起源](Newplayer/KnowCoreages/Coreages2.md)
 * [注册账号](Newplayer/1.md)
 * [新手礼包](Newplayer/2.md)
 * [货币介绍](Newplayer/3.md)
 * [称号/权限组](Newplayer/4.md)
-* [每日礼包](Newplayer/5.md)
+* [菜单](Newplayer/MENU/MENU.md)
+  * [传送/世界介绍](Newplayer/MENU/World/WorldTP.md)
+    * [生存世界](Newplayer/MENU/World/SCworld.md)
+    * [资源世界](Newplayer/MENU/World/ZYworld.md)
+    * [旧世界](Newplayer/MENU/World/oldworld.md)
+  * [商店](Newplayer/MENU/Shop/Shop.md)
+    * [权限/VIP商城](Newplayer/MENU/Shop/vipShop.md)
+    * [钥匙商城](Newplayer/MENU/Shop/yaoshi.md)
+    * [现金商城](Newplayer/MENU/Shop/xianjin.md)
+    * [昵称色彩商城](Newplayer/MENU/Shop/nick.md)
+    * [物品商城](Newplayer/MENU/Shop/wupin.md)
+    * [生命值商城](Newplayer/MENU/Shop/shengming.md)
+    * [无限方块商城](Newplayer/MENU/Shop/fangkuai.md)
+    * [远古代币商城](Newplayer/MENU/Shop/daibi.md)
+  * [每日签到/礼包](Newplayer/MENU/DayGT.md)
+  * [聊天管理/称号系统](Newplayer/MENU/chatadmin.md)
 
 ## 🎮教程 <a href="#guide" id="guide"></a>
 

@@ -1,10 +1,10 @@
-![vip](C:\Users\wdsj2\Music\coreages\CoreagesWiki-main\Newplayer\image\vip.jpg)
+![vip](../Newplayer/image/vip.jpg)
 
 节假日会有打折活动哦~  请关注[QQ群](点击链接加入群聊【远古之心  Coreages】：https://qm.qq.com/q/OO2ZeOcb2o)内动态~
 
 ### VIP价格表： `单位 - RMB`
 
-| 时长 | <img src="../Newplayer/image/Iron.png" alt="傲视群雄 vip1" style="zoom:10%;" />傲视群雄 vip1 | <img src="../Newplayer/image/Gold.png" alt="傲视群雄 vip1" style="zoom:10%;" />举世无双 vip2 | <img src="../Newplayer/image/Diamond.png" alt="傲视群雄 vip1" style="zoom:10%;" />返璞归真 vip3 |
+| 时长 | <img src="../Newplayer/image/Iron.png" alt="Iron" style="width:1em; height:auto;">傲视群雄 vip1 | <img src="../Newplayer/image/Gold.png" alt="Gold" style="width:1em; height:auto;">举世无双 vip2 | <img src="../Newplayer/image/Diamond.png" alt="Diamond" style="width:1em; height:auto;">返璞归真 vip3 |
 | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | 月租 |                              20                              |                              40                              |                              60                              |
 | 季租 |                              60                              |                             120                              |                             180                              |
@@ -13,7 +13,7 @@
 
 ### **VIP功能对比表：**
 
-|       VIP功能        | <img src="../Newplayer/image/Iron.png" alt="傲视群雄 vip1" style="zoom:10%;" />傲视群雄 vip1 | <img src="../Newplayer/image/Gold.png" alt="傲视群雄 vip1" style="zoom:10%;" />举世无双 vip2 | <img src="../Newplayer/image/Diamond.png" alt="傲视群雄 vip1" style="zoom:10%;" />返璞归真 vip3 |
+|       VIP功能        | <img src="../Newplayer/image/Iron.png" alt="Iron" style="width:1em; height:auto;">傲视群雄 vip1 | <img src="../Newplayer/image/Gold.png" alt="Gold" style="width:1em; height:auto;">举世无双 vip2 | <img src="../Newplayer/image/Diamond.png" alt="Diamond" style="width:1em; height:auto;">返璞归真 vip3 |
 | :------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |   随身工作台`/wb`    |                              √                               |                              √                               |                              √                               |
 |   随身末影箱`/ec`    |                              √                               |                              √                               |                              √                               |
