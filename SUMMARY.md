@@ -28,6 +28,7 @@
     * [远古代币商城](Newplayer/MENU/Shop/daibi.md)
   * [每日签到/礼包](Newplayer/MENU/DayGT.md)
   * [聊天管理/称号系统](Newplayer/MENU/chatadmin.md)
+  * [服务器公共设施](Newplayer/MENU/spawn.md)
 
 ## 🎮教程 <a href="#guide" id="guide"></a>
 
