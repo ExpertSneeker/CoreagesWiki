@@ -13,7 +13,7 @@
 
 ### **VIP功能对比表：**
 
-|       VIP功能        | <img src="../Newplayer/image/Iron.png" alt="Iron" style="zoom:10%;" />傲视群雄 vip1 | <img src="../Newplayer/image/Gold.png" alt="Gold" width="20" height="20">举世无双 vip2 | <img src="../Newplayer/image/Diamond.png" alt="Diamond" width="20" height="20">返璞归真 vip3 |
+|       VIP功能        | <img src="../Newplayer/image/Iron.png" alt="Iron" width="20" height="20">傲视群雄 vip1 | <img src="../Newplayer/image/Gold.png" alt="Gold" width="20" height="20">举世无双 vip2 | <img src="../Newplayer/image/Diamond.png" alt="Diamond" width="20" height="20">返璞归真 vip3 |
 | :------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |   随身工作台`/wb`    |                              √                               |                              √                               |                              √                               |
 |   随身末影箱`/ec`    |                              √                               |                              √                               |                              √                               |
