@@ -1,7 +1,6 @@
-# 服务器介绍
+# 服务器简介
 
-<img src="/Newplayer/image/spawn.png" alt="spawn" style="zoom:50%;" />
-
+![服务器主城](image/spawn.png)
 
 **Hello! Coreages 是一个友好而有趣的社区。**
 
@@ -30,3 +29,25 @@
 QQ群：[902294518](https://qm.qq.com/q/RXH536hWso)
 
 Discord：https://discord.gg/XeHDsnVY2B
+
+------
+
+##### 服务器截图：**[点我查看更多](Coreages4.md)**
+
+![2024年春节庆典合影](image/2024new.png)
+
+![2024年春节庆典活动现场](image/2024pk.png)
+
+![2024年春节庆典留言墙](image/2024newly.png)
+
+![2023年春节庆典合影](image/2023new.png)
+
+![2023年春节庆典活动现场](image/2023new1.png)
+
+![2023年春节庆典留言墙](image/2023newly.png)
+
+![2021年五周年庆典合影](image/20215year.png)
+
+![2021年五周年庆典留言墙](image/20215yearly.png)
+
+![2019](image/2019.png)
