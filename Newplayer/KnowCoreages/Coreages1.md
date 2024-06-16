@@ -1,7 +1,6 @@
 # 服务器介绍
 
-![服务器主城](../Newplayer/image/spawn.png)
-
+<img src="/Newplayer/image/spawn.png" alt="spawn" style="zoom:50%;" />
 
 
 **Hello! Coreages 是一个友好而有趣的社区。**
