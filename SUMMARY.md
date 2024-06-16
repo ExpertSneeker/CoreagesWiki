@@ -3,11 +3,22 @@
 * [Coreages Wiki](README.md)
 
 ## 😊初入远古之心 <a href="#guide" id="guide"></a>
+* [了解远古之心](Newplayer/KnowCoreages/Coreages1.md)
+  * [服务器简介](Newplayer/KnowCoreages/Coreages1.md)
+  * [远古起源](Newplayer/KnowCoreages/Coreages2.md)
+  * [服务器玩法](Newplayer/KnowCoreages/Coreages3.md)
+
 * [注册账号](Newplayer/1.md)
 * [新手礼包](Newplayer/2.md)
 * [货币介绍](Newplayer/3.md)
 * [称号/权限组](Newplayer/4.md)
 * [每日礼包](Newplayer/5.md)
+* [菜单](Newplayer/MENU/MENU.md)
+  * [传送/世界介绍](Newplayer/MENU/World/WorldTP.md)
+  * [商店](Newplayer/MENU/Shop/SHop.md)
+  * [每日签到/礼包](Newplayer/MENU/DayGT.md)
+  * [升级称号](Newplayer/MENU/UP.md)
+  * [聊天管理](Newplayer/MENU/chatadmin.md)
 
 ## 🎮教程 <a href="#guide" id="guide"></a>
 
