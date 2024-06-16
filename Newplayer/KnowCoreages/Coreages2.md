@@ -1,6 +1,6 @@
 # 远古の起源
 
-![2024newHZ](image/2024newHZ.png)
+![老狗ID-ExpertSneeker](image/2024newHZ.png)
 
 关于远古之心的起源与老狗的经历
 
