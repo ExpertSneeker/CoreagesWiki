@@ -4,8 +4,6 @@
 
 ##### 节假日会有打折活动哦~  请关注[QQ群](点击链接加入群聊【远古之心  Coreages】：https://qm.qq.com/q/OO2ZeOcb2o)内动态~
 
-> [!IMPORTANT]
->
 > **请适度娱乐理性消费！**
 
 ### 1.VIP/会员
