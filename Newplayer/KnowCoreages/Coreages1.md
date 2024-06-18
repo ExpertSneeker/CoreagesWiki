@@ -2,33 +2,49 @@
 
 ![服务器主城](image/spawn.png)
 
-**Hello! Coreages 是一个友好而有趣的社区。**
+**Hello! Coreages！**
 
-**我们秉承多元化理念，为各类玩家提供丰富的玩法和极致的体验**
+**远古之心是由老狗-ExpertSneeker负责维护管理的免费的无需正版验证的Minecraft Java Edition & Minecraft Bedrock Edition 多人游戏服务器。**
+
+**服务器于2018年8月开服，是以原版生存+粘液科技玩法为主的服务器。**
 
 **今天加入我们，尝试我们的游戏模式，让您体验宾至如归的感受！**
 
+------
 
+**游戏版本:** 
 
-版本: 1.9~1.20.4 [ 推荐1.20.4 ] 
+​	JAVA版：1.9~1.20.4 [ 推荐1.20.4 ] 
 
-服务器IP: coreages.com 
+​	基岩版：1.20.40-1.20.73
 
-单线地址： 
+**服务器地址/IP：**
 
-电信：dx.coreages.com 
+​	JAVA版：
 
-联通：lt.coreages.com 
+​		服务器地址： `coreages.com` 
 
-移动：yd.coreages.com 
+​		单线地址： 
 
-备用IP: owl12.vipi9.top:34655 
+​		电信：`dx.coreages.com` 
 
-教程文档: https://wiki.coreages.com/ 
+​		联通：`lt.coreages.com` 
 
-QQ群：[902294518](https://qm.qq.com/q/RXH536hWso)
+​		移动：`yd.coreages.com` 
 
-Discord：https://discord.gg/XeHDsnVY2B
+​	基岩版：
+
+​		服务器地址: `be.coreages.com` 端口: `34655`
+
+​	通用备用IP: `owl12.vipi9.top:34655` 
+
+------
+
+教程文档: [https://wiki.coreages.com/](https://wiki.coreages.com/ ) 
+
+QQ群：[902294518](https://qm.qq.com/q/RXH536hWso) 
+
+Discord：[https://discord.gg/XeHDsnVY2B](https://discord.gg/XeHDsnVY2B)
 
 ------
 
