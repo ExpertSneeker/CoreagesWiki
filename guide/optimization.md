@@ -1,9 +1,6 @@
----
-description: 提高游戏帧率。
----
-
 # 客户端优化指南
 游戏内按F3查看自己的FPS `FPS越高游戏越流畅`
+
 ![如图显示我目前的FPS为408](../.gitbook/images/FPS.png)
 
 ## 在Minecraft游戏中的措施
