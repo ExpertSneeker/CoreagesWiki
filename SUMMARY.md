@@ -7,6 +7,7 @@
   * [服务器玩法](Newplayer/KnowCoreages/Coreages3.md)
   * [服务器截图](Newplayer/KnowCoreages/Coreages4.md)
   * [远古起源](Newplayer/KnowCoreages/Coreages2.md)
+* [服务器规则和协议](Newplayer/0.md)
 * [注册账号](Newplayer/1.md)
 * [新手礼包](Newplayer/2.md)
 * [货币介绍](Newplayer/3.md)
@@ -17,7 +18,7 @@
     * [生存世界](Newplayer/MENU/World/SCworld.md)
     * [资源世界](Newplayer/MENU/World/ZYworld.md)
     * [旧世界](Newplayer/MENU/World/oldworld.md)
-  * [商店](Newplayer/MENU/Shop/Shop.md)
+  * [ 远古商城](Newplayer/MENU/Shop/Shop.md)
     * [权限/VIP商城](Newplayer/MENU/Shop/VIPShop.md)
     * [钥匙商城](Newplayer/MENU/Shop/yaoshi.md)
     * [现金商城](Newplayer/MENU/Shop/xianjin.md)
@@ -26,13 +27,17 @@
     * [生命值商城](Newplayer/MENU/Shop/shengming.md)
     * [无限方块商城](Newplayer/MENU/Shop/fangkuai.md)
     * [远古代币商城](Newplayer/MENU/Shop/daibi.md)
+  * [玩家贸易](Newplayer/MENU/PlayerShop/Shop.md)
+    * [系统商店](Newplayer/MENU/PlayerShop/s.md)
+    * [寄售中心](Newplayer/MENU/PlayerShop/qs.md)
+    * [箱子商店](Newplayer/MENU/PlayerShop/chestshop.md)
   * [每日签到/礼包](Newplayer/MENU/DayGT.md)
   * [聊天管理/称号系统](Newplayer/MENU/chatadmin.md)
   * [服务器公共设施](Newplayer/MENU/spawn.md)
 
 ## 🎮教程 <a href="#guide" id="guide"></a>
 
-* [领地](guide/residence.md)
+* [领地教程](guide/residence.md)
 * [常用指令](guide/command.md)
 * [使用基岩版登录](guide/geyser.md)
 * [服务器常见问题](guide/faq.md)
@@ -40,10 +45,12 @@
 
 ## <img src=".gitbook/images/slimefun.png" alt="" data-size="original"> Slimefun 粘液科技教程 <a href="#slimefun" id="slimefun"></a>
 
-* <a href="https://minecraft.fandom.com/zh/wiki/Minecraft_Wiki" title="mcwiki">原版wiki</a>
+* <a href="https://zh.minecraft.wiki/" title="mcwiki">原版wiki</a>
+
+* [什么是粘液科技](slimefun/whatslimefun.md)
 
 * [粘液教程](slimefun/README.md)
-  * [入门基础与多方快结构](slimefun/1.1.md)
+  * [入门基础与多方块结构](slimefun/1.1.md)
   * [矿粉与矿锭的获取](slimefun/1.2.md)
   * [正在赶工......](slimefun/1.3.md)
 
