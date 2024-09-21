@@ -31,6 +31,7 @@
     * [系统商店](Newplayer/MENU/PlayerShop/s.md)
     * [寄售中心](Newplayer/MENU/PlayerShop/qs.md)
     * [箱子商店](Newplayer/MENU/PlayerShop/chestshop.md)
+  * [节日礼物](Newplayer/MENU/gift.md)
   * [每日签到/礼包](Newplayer/MENU/DayGT.md)
   * [聊天管理/称号系统](Newplayer/MENU/chatadmin.md)
   * [服务器公共设施](Newplayer/MENU/spawn.md)
