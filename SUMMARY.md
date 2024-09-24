@@ -45,12 +45,10 @@
 * [服务器常见问题](guide/faq.md)
 * [客户端优化指南](guide/optimization.md)
 * [我的世界JAVA版安装教程](JAVAguide/0.md)
-  * [1.选择并安装启动器](1.md)
-  * [2.选择并安装JAVA](2.md)
-  * [3.安装游戏](3.md)
-  * [4.](4.md)
-  * [5.](5.md)
-  * [6.](6.md)
+  * [1.选择并安装启动器](JAVAguide/1.md)
+  * [2.选择并安装JAVA](JAVAguide/2.md)
+  * [3.安装游戏](JAVAguide/3.md)
+  * [4.未完待续](JAVAguide/4.md)
 
 ## <img src=".gitbook/images/slimefun.png" alt="" data-size="original"> Slimefun 粘液科技教程 <a href="#slimefun" id="slimefun"></a>
 
