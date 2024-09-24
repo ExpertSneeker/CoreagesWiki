@@ -3,6 +3,7 @@
 * [Coreages Wiki](README.md)
 
 ## 🎉初入远古之心 <a href="#guide" id="guide"></a>
+
 * [了解远古之心](Newplayer/KnowCoreages/Coreages1.md)
   * [服务器玩法](Newplayer/KnowCoreages/Coreages3.md)
   * [服务器截图](Newplayer/KnowCoreages/Coreages4.md)
@@ -43,6 +44,13 @@
 * [使用基岩版登录](guide/geyser.md)
 * [服务器常见问题](guide/faq.md)
 * [客户端优化指南](guide/optimization.md)
+* [我的世界JAVA版安装教程](JAVAguide/0.md)
+  * [1.选择并安装启动器](1.md)
+  * [2.选择并安装JAVA](2.md)
+  * [3.安装游戏](3.md)
+  * [4.](4.md)
+  * [5.](5.md)
+  * [6.](6.md)
 
 ## <img src=".gitbook/images/slimefun.png" alt="" data-size="original"> Slimefun 粘液科技教程 <a href="#slimefun" id="slimefun"></a>
 
