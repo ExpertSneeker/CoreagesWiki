@@ -41,6 +41,10 @@
 
 * [领地教程](guide/residence.md)
 * [常用指令](guide/command.md)
+  * [游戏财产](guide/1-1.md)
+  * [世界传送](guide/1-2.md)
+  * [辅助内容](guide/1-3.md)
+
 * [使用基岩版登录](guide/geyser.md)
 * [服务器常见问题](guide/faq.md)
 * [客户端优化指南](guide/optimization.md)
