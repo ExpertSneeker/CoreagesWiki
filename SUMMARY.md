@@ -63,8 +63,11 @@
 * [粘液教程](slimefun/README.md)
   * [入门基础与多方块结构](slimefun/1.1.md)
   * [矿粉与矿锭的获取](slimefun/1.2.md)
-  * [正在赶工......](slimefun/1.3.md)
-  * [核反应堆的搭建](slimefun/1.4.md)
+  * [-----](slimefun/1.3.md)
+  * [能源网络](slimefun/1.4.md)
+  * [货运系统](slimefun/1.5.md)
+  * [-----](slimefun/1.6.md)
+  * [核反应堆的搭建](slimefun/1.7.md)
 
 ## 四季 <a href="#reason" id="reason"></a>
 
