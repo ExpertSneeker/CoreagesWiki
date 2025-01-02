@@ -68,6 +68,8 @@
   * [货运系统](slimefun/1.5.md)
   * [-----](slimefun/1.6.md)
   * [核反应堆的搭建](slimefun/1.7.md)
+  * [附属教程：星际科技](slimefun/Galacifun/space.md)
+    * [星球信息](slimefun/Galacifun/1.md)
 
 ## 四季 <a href="#reason" id="reason"></a>
 
