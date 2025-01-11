@@ -71,7 +71,7 @@
     * [装备](slimefun/Galacifun/2.md)
     * [星系机器](slimefun/Galacifun/machine/0.md)
       * [氧气填充器](slimefun/Galacifun/machine/1.md)
-      * [航天服升级模块](slimefun/Galacifun/machine/2 .md)
+      * [航天服升级模块](slimefun/Galacifun/machine/2.md)
       * [循环压力机](slimefun/Galacifun/machine/3.md)
       * [星系装配台](slimefun/Galacifun/machine/4.md)
       * [空间冷却器](slimefun/Galacifun/machine/5.md)
