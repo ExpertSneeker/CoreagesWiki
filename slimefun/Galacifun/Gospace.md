@@ -12,7 +12,7 @@
 
 因为[月球](slimefun/Galacifun/celestialboby/2.md)**的环境为**1级抗寒 (不同星球的环境不一样，所以所需的模块和等级也不一样，具体请看星球环境)
 
-所以我们需要制作[1个抗寒性升级模块](slimefun/Galacifun/2.md)，并用到机器"[航天服升级模块](slimefun/Galacifun/machine/2 .md)"，将模块装备到宇航服上(任意一件即可)
+所以我们需要制作[1个抗寒性升级模块](slimefun/Galacifun/2.md)，并用到机器"[航天服升级模块](slimefun/Galacifun/machine/2.md)"，将模块装备到宇航服上(任意一件即可)
 
 ### 二、发射前的准备 - 火箭/燃料
 
