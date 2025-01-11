@@ -57,9 +57,7 @@
 ## <img src=".gitbook/images/slimefun.png" alt="" data-size="original"> Slimefun 粘液科技教程 <a href="#slimefun" id="slimefun"></a>
 
 * <a href="https://zh.minecraft.wiki/" title="mcwiki">原版wiki</a>
-
 * [什么是粘液科技](slimefun/whatslimefun.md)
-
 * [粘液教程](slimefun/README.md)
   * [入门基础与多方块结构](slimefun/1.1.md)
   * [矿粉与矿锭的获取](slimefun/1.2.md)
@@ -69,7 +67,38 @@
   * [-----](slimefun/1.6.md)
   * [核反应堆的搭建](slimefun/1.7.md)
   * [附属教程：星际科技](slimefun/Galacifun/space.md)
-    * [星球信息](slimefun/Galacifun/1.md)
+    * [发射火箭，进入太空](slimefun/Galacifun/Gospace.md)
+    * [装备](slimefun/Galacifun/2.md)
+    * [星系机器](slimefun/Galacifun/machine/0.md)
+      * [氧气填充器](slimefun/Galacifun/machine/1.md)
+      * [航天服升级模块](slimefun/Galacifun/machine/2 .md)
+      * [循环压力机](slimefun/Galacifun/machine/3.md)
+      * [星系装配台](slimefun/Galacifun/machine/4.md)
+      * [空间冷却器](slimefun/Galacifun/machine/5.md)
+      * [空间加热器](slimefun/Galacifun/machine/6.md)
+      * [离子分散器](slimefun/Galacifun/machine/7.md)
+      * [星系天文台](slimefun/Galacifun/machine/8.md)
+      * [行星分析仪](slimefun/Galacifun/machine/9.md)
+      * [钻石砧](slimefun/Galacifun/machine/10.md)
+      * [氧气散播机](slimefun/Galacifun/machine/11.md)
+      * [自动门](slimefun/Galacifun/machine/12.md)
+      * [试验性力场发生器](slimefun/Galacifun/machine/13.md)
+      * [聚变反应堆](slimefun/Galacifun/machine/14.md)
+      * [大气收集机](slimefun/Galacifun/machine/15.md)
+      * [化学反应器](slimefun/Galacifun/machine/16.md)
+      * [电解器](slimefun/Galacifun/machine/17.md)
+      * [遗迹搜查机](slimefun/Galacifun/machine/18.md)
+    * [星球/天体](slimefun/Galacifun/celestialboby/0.md)
+      * [地球高空轨道](slimefun/Galacifun/celestialboby/1.md)
+      * [月球](slimefun/Galacifun/celestialboby/2.md)
+      * [火星](slimefun/Galacifun/celestialboby/3.md)
+      * [金星](slimefun/Galacifun/celestialboby/4.md)
+      * [木卫一-艾奥](slimefun/Galacifun/celestialboby/5.md)
+      * [木卫二](slimefun/Galacifun/celestialboby/6.md)
+      * [土卫二](slimefun/Galacifun/celestialboby/7.md)
+      * [土卫六-泰坦](slimefun/Galacifun/celestialboby/8.md)
+    * [星球环境汇总](slimefun/Galacifun/5.md)
+    * [密封环境](slimefun/Galacifun/6.md)
 
 ## 四季 <a href="#reason" id="reason"></a>
 
