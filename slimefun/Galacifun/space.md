@@ -26,7 +26,7 @@
 
 ![需前往子目录“星际配方”查看完整且正确的配方](image/4-1.png)
 
-**[星系装配台](slimefun/Galacifun/machine/4.md)**是专门用于合成星际物品的工作方块，并且需要接入[能源网络](../slimefun/1.4.md)才可使用
+[星系装配台](slimefun/Galacifun/machine/4.md)是专门用于合成星际物品的工作方块，并且需要接入[能源网络](../slimefun/1.4.md)才可使用
 
 所在目录：星系→星系机器
 
