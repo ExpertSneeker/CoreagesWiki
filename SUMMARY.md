@@ -39,6 +39,7 @@
 
 ## 🎮教程 <a href="#guide" id="guide"></a>
 
+* [小提示](guide/tip.md)
 * [领地教程](guide/residence.md)
 * [常用指令](guide/command.md)
   * [游戏财产](guide/1-1.md)
