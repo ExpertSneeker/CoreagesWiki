@@ -39,6 +39,7 @@
 
 ## 🎮教程 <a href="#guide" id="guide"></a>
 
+* [小提示](guide/tip.md)
 * [领地教程](guide/residence.md)
 * [常用指令](guide/command.md)
   * [游戏财产](guide/1-1.md)
@@ -65,7 +66,7 @@
   * [-----](slimefun/1.3.md)
   * [能源网络](slimefun/1.4.md)
   * [货运系统](slimefun/1.5.md)
-  * [-----](slimefun/1.6.md)
+  * [-----](slimefun/1.3.md)
   * [核反应堆的搭建](slimefun/1.7.md)
   * [附属教程：星际科技](slimefun/Galacifun/space.md)
     * [发射火箭，进入太空](slimefun/Galacifun/Gospace.md)
