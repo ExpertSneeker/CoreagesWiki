@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/spring.png
+cover: ../.gitbook/images/spring.png
 coverY: 0
 ---
 
@@ -26,8 +26,8 @@ coverY: 0
 
 ### 截图
 
-![](../.gitbook/assets/spring.png)
+![](../.gitbook/images/spring.png)
 
-![](../.gitbook/assets/2022-02-20\_17.41.51.png)
+![](../.gitbook/images/2022-02-20_17.41.51.png)
 
-![](../.gitbook/assets/2022-02-20\_18.22.34.png)
+![](../.gitbook/images/2022-02-20_18.22.34.png)

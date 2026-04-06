@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/winter.png
+cover: ../.gitbook/images/winter.png
 coverY: 0
 ---
 
@@ -24,12 +24,12 @@ coverY: 0
 
 ### 截图
 
-![](../.gitbook/assets/winter.png)
+![](../.gitbook/images/winter.png)
 
-![](../.gitbook/assets/2022-02-23\_12.43.55.png)
+![](../.gitbook/images/2022-02-23_12.43.55.png)
 
-![](../.gitbook/assets/2022-02-23\_12.44.15.png)
+![](../.gitbook/images/2022-02-23_12.44.15.png)
 
-![](../.gitbook/assets/2022-02-23\_12.47.53.png)
+![](../.gitbook/images/2022-02-23_12.47.53.png)
 
-![](../.gitbook/assets/2022-02-23\_12.45.28.png)
+![](../.gitbook/images/2022-02-23_12.45.28.png)

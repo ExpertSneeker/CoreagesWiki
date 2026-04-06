@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/四季.png
+cover: ../.gitbook/images/四季.png
 coverY: 0
 ---
 

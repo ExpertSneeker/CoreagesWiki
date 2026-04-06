@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/summer.png
+cover: ../.gitbook/images/summer.png
 coverY: 51.49425287356322
 ---
 
@@ -26,6 +26,6 @@ coverY: 51.49425287356322
 
 ### 截图
 
-![](../.gitbook/assets/summer.png)
+![](../.gitbook/images/summer.png)
 
-![](../.gitbook/assets/2022-02-23\_12.31.08.png)
+![](../.gitbook/images/2022-02-23_12.31.08.png)

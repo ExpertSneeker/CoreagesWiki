@@ -1,5 +1,5 @@
 ---
-cover: ../.gitbook/assets/2022-01-22_17.01.12.png
+cover: ../.gitbook/images/2022-01-22_17.01.12.png
 coverY: 0
 ---
 
@@ -26,8 +26,8 @@ coverY: 0
 
 ### 截图
 
-![](../.gitbook/assets/2022-01-22\_17.01.12.png)
+![](../.gitbook/images/2022-01-22_17.01.12.png)
 
-![](../.gitbook/assets/2022-02-23\_12.35.13.png)
+![](../.gitbook/images/2022-02-23_12.35.13.png)
 
-![](../.gitbook/assets/2022-02-23\_12.36.30.png)
+![](../.gitbook/images/2022-02-23_12.36.30.png)
