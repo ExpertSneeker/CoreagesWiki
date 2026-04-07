@@ -19,10 +19,12 @@ export default defineConfig({
     sidebar: [
       {
         text: '初入远古之心',
+        collapsed: false,
         items: [
           {
             text: '了解远古之心',
             link: '/Newplayer/KnowCoreages/Coreages1',
+            collapsed: true,
             items: [
               { text: '服务器玩法', link: '/Newplayer/KnowCoreages/Coreages3' },
               { text: '服务器截图', link: '/Newplayer/KnowCoreages/Coreages4' },
@@ -38,10 +40,12 @@ export default defineConfig({
           {
             text: '菜单',
             link: '/Newplayer/MENU/MENU',
+            collapsed: true,
             items: [
               {
                 text: '传送/世界介绍',
                 link: '/Newplayer/MENU/World/WORLDTP',
+                collapsed: true,
                 items: [
                   { text: '生存世界', link: '/Newplayer/MENU/World/SCworld' },
                   { text: '资源世界', link: '/Newplayer/MENU/World/ZYworld' },
@@ -51,6 +55,7 @@ export default defineConfig({
               {
                 text: '远古商城',
                 link: '/Newplayer/MENU/Shop/Shop',
+                collapsed: true,
                 items: [
                   { text: '权限/VIP商城', link: '/Newplayer/MENU/Shop/VIPShop' },
                   { text: '钥匙商城', link: '/Newplayer/MENU/Shop/yaoshi' },
@@ -65,6 +70,7 @@ export default defineConfig({
               {
                 text: '玩家贸易',
                 link: '/Newplayer/MENU/PlayerShop/Shop',
+                collapsed: true,
                 items: [
                   { text: '系统商店', link: '/Newplayer/MENU/PlayerShop/s' },
                   { text: '寄售中心', link: '/Newplayer/MENU/PlayerShop/qs' },
@@ -81,12 +87,14 @@ export default defineConfig({
       },
       {
         text: '教程',
+        collapsed: false,
         items: [
           { text: '小提示', link: '/guide/tip' },
           { text: '领地教程', link: '/guide/residence' },
           {
             text: '常用指令',
             link: '/guide/command',
+            collapsed: true,
             items: [
               { text: '游戏财产', link: '/guide/1-1' },
               { text: '世界传送', link: '/guide/1-2' },
@@ -100,6 +108,7 @@ export default defineConfig({
           {
             text: 'JAVA版安装教程',
             link: '/JAVAguide/0',
+            collapsed: true,
             items: [
               { text: '1.选择并安装启动器', link: '/JAVAguide/1' },
               { text: '2.选择并安装JAVA', link: '/JAVAguide/2' },
@@ -111,11 +120,12 @@ export default defineConfig({
       },
       {
         text: 'Slimefun 粘液科技',
+        collapsed: false,
         items: [
           { text: '什么是粘液科技', link: '/slimefun/whatslimefun' },
           {
             text: '粘液教程',
-            link: '/slimefun/',
+            collapsed: false,
             items: [
               { text: '入门基础与多方块结构', link: '/slimefun/1.1' },
               { text: '矿粉与矿锭的获取', link: '/slimefun/1.2' },
@@ -125,12 +135,14 @@ export default defineConfig({
               {
                 text: '附属教程：星际科技',
                 link: '/slimefun/Galacifun/space',
+                collapsed: true,
                 items: [
                   { text: '发射火箭，进入太空', link: '/slimefun/Galacifun/Gospace' },
                   { text: '装备', link: '/slimefun/Galacifun/2' },
                   {
                     text: '星系机器',
                     link: '/slimefun/Galacifun/machine/0',
+                    collapsed: true,
                     items: [
                       { text: '氧气填充器', link: '/slimefun/Galacifun/machine/1' },
                       { text: '航天服升级模块', link: '/slimefun/Galacifun/machine/2' },
@@ -155,6 +167,7 @@ export default defineConfig({
                   {
                     text: '星球/天体',
                     link: '/slimefun/Galacifun/celestialboby/0',
+                    collapsed: true,
                     items: [
                       { text: '地球高空轨道', link: '/slimefun/Galacifun/celestialboby/1' },
                       { text: '月球', link: '/slimefun/Galacifun/celestialboby/2' },
@@ -176,6 +189,7 @@ export default defineConfig({
       },
       {
         text: '四季',
+        collapsed: true,
         items: [
           { text: '春天', link: '/reason/spring' },
           { text: '夏天', link: '/reason/summer' },
