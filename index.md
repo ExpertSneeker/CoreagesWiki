@@ -10,8 +10,8 @@ hero:
       text: 新手入门
       link: /Newplayer/KnowCoreages/Coreages1
     - theme: alt
-      text: 游戏教程
-      link: /guide/tip
+      text: 加入QQ群
+      link: https://jq.qq.com/?_wv=1027&k=ZfZa5grp
 
 features:
   - title: 初入远古之心
@@ -31,10 +31,4 @@ features:
 
 如发现错误,请您指出并告知我们及时作出修改！谢谢！
 
----
-
-本文档维护者：
-
-1. ExpertSneeker - 老狗
-2. GardeniaBlow - 紫薯
-3. \_Ix\_Love - 玖
+<Contributors />
