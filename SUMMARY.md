@@ -15,7 +15,7 @@
 * [称号/权限组](Newplayer/4.md)
 * [正版验证](Newplayer/zhengban.md)
 * [菜单](Newplayer/MENU/MENU.md)
-  * [传送/世界介绍](Newplayer/MENU/World/WORLDTP.md)
+  * [传送/世界介绍](Newplayer/MENU/World/worldTP.md)
     * [生存世界](Newplayer/MENU/World/SCworld.md)
     * [资源世界](Newplayer/MENU/World/ZYworld.md)
     * [旧世界](Newplayer/MENU/World/oldworld.md)

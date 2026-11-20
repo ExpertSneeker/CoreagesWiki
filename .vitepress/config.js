@@ -44,7 +44,7 @@ export default defineConfig({
             items: [
               {
                 text: '传送/世界介绍',
-                link: '/Newplayer/MENU/World/WORLDTP',
+                link: '/Newplayer/MENU/World/worldTP',
                 collapsed: true,
                 items: [
                   { text: '生存世界', link: '/Newplayer/MENU/World/SCworld' },
