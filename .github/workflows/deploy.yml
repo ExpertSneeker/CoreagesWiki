@@ -1,0 +1,80 @@
+# 推送到 main 后自动构建并发布到 https://wiki.coreages.com
+# 服务器端：wiki-deploy 用户的密钥只能执行 /usr/local/bin/wiki-deploy-gate 允许的
+# prepare / rsync 写入新版本 / activate，见运维仓库 运维/阿里云网站维护.md“Wiki 自动发布”。
+name: 发布 Wiki
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-wiki
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    if: github.repository == 'ExpertSneeker/CoreagesWiki'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      DEPLOY_HOST: 8.130.175.250
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: 安装依赖
+        run: npm ci --no-audit --no-fund
+
+      - name: 构建
+        run: npm run build
+
+      - name: 检查构建结果
+        run: |
+          test -f .vitepress/dist/index.html
+          test -f .vitepress/dist/404.html
+          test -d .vitepress/dist/assets
+          echo "文件数 $(find .vitepress/dist -type f | wc -l)，大小 $(du -sh .vitepress/dist | cut -f1)"
+
+      - name: 配置 SSH
+        env:
+          DEPLOY_KEY: ${{ secrets.WIKI_DEPLOY_KEY }}
+        run: |
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$DEPLOY_KEY" > ~/.ssh/wiki_deploy
+          chmod 600 ~/.ssh/wiki_deploy
+          # ECS 主机公钥（SHA256:ryIM5mV3lp3PhdPqYNwMElVdIIHqB69V7DunCCx7vPs）
+          echo "$DEPLOY_HOST ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINvfveJIvOqprJY6+YdJUzvm9VFA1gWgO508J9UkVSMM" > ~/.ssh/known_hosts
+
+      - name: 上传并切换
+        run: |
+          set -euo pipefail
+          ssh_cmd="ssh -i $HOME/.ssh/wiki_deploy -o IdentitiesOnly=yes -o BatchMode=yes -o StrictHostKeyChecking=yes -o UserKnownHostsFile=$HOME/.ssh/known_hosts -o ConnectTimeout=20"
+          id="$(TZ=Asia/Shanghai date +%Y%m%d-%H%M%S)-${GITHUB_SHA::12}"
+          echo "版本 $id，当前线上 $($ssh_cmd wiki-deploy@$DEPLOY_HOST current)"
+          $ssh_cmd wiki-deploy@$DEPLOY_HOST "prepare $id"
+          rsync -e "$ssh_cmd" -rc --delete --chmod=D755,F644 --stats .vitepress/dist/ "wiki-deploy@$DEPLOY_HOST:$id/"
+          $ssh_cmd wiki-deploy@$DEPLOY_HOST "activate $id"
+
+      - name: 公网验收
+        run: |
+          for i in $(seq 1 12); do
+            if curl -fsS --max-time 30 "https://wiki.coreages.com/?v=$GITHUB_SHA" -o live.html \
+               && cmp -s live.html .vitepress/dist/index.html; then
+              echo "公网首页已是本次构建"; exit 0
+            fi
+            sleep 10
+          done
+          echo "::error::公网首页与本次构建不一致（服务器已切换，请检查 ESA 或 Nginx）"
+          exit 1
+
+      - name: 清理密钥
+        if: always()
+        run: rm -f ~/.ssh/wiki_deploy
