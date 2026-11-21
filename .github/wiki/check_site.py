@@ -54,7 +54,7 @@ def main():
     # Branch smoke runs have no PR base and only check the build/tree.
     changed = git_paths("diff", "--name-only", "--diff-filter=ACMR", "-z", base, "HEAD") if base else []
     for source in changed:
-        if not source.endswith(".md"):
+        if not source.endswith(".md") or any(p.startswith(".") for p in PurePosixPath(source).parts):
             continue
         page = source[:-3] + ".html"
         if page not in files:
