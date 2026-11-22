@@ -10,10 +10,10 @@ Miso MCP 已在隔离服通过联调，公网接口暂未开放。下文是开�
 
 1. 机器人维护者从服主处取得机器人专用密钥，保存在机器人后台。用它调用 `POST https://coreages.com/api/miso/pair/start`，请求头为 `Authorization: Bearer <机器人密钥>`。
 2. 将返回的 `url` 和八位 `confirmationCode` 私发给这位玩家。`code` 和 `proof` 留在机器人后台，配对有效期为 5 分钟。
-3. 玩家打开链接，用游戏账号登录官网，输入配对码并设置每日扣点上限。玩家的游戏密码只填写在官网。
+3. 玩家打开链接，用游戏账号登录官网，输入配对码，设置每日扣点上限和密钥有效期。玩家的游戏密码只填写在官网。
 4. 机器人后台用同一个机器人密钥调用 `POST /api/miso/pair/finish`，JSON 请求体包含原先的 `code` 和 `proof`。玩家还没确认时返回 HTTP 202，确认后返回 `token` 与 `expiresIn`。按 QQ 成员分别保存玩家令牌，调用时使用提问者自己的令牌。
 
-玩家令牌有效期为 30 天。玩家可在 [Miso 授权管理](https://coreages.com/api/miso/connect) 查看余额、最近消费并撤销授权。游戏密码更改后，旧授权也会失效。
+玩家可选 **7 天、30 天、90 天或永久**，默认 30 天。配对完成后，`expiresIn` 为有效秒数，永久令牌返回 `null`。玩家可在 [Miso 授权管理](https://coreages.com/api/miso/connect) 查看有效期、余额和最近消费。撤销授权、重新配对或更改游戏密码都会使旧令牌失效，包括永久令牌。
 
 ## 建立 MCP 连接
 
