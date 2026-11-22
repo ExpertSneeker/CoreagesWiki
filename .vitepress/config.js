@@ -103,6 +103,7 @@ export default defineConfig({
           },
           { text: '使用基岩版登录', link: '/guide/geyser' },
           { text: '服务器常见问题', link: '/guide/faq' },
+          { text: 'Miso MCP 对接', link: '/guide/miso-mcp' },
           { text: '关于服务器修改', link: '/guide/serveredit' },
           { text: '客户端优化指南', link: '/guide/optimization' },
           {

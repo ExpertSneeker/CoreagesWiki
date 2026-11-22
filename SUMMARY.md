@@ -48,6 +48,7 @@
 
 * [使用基岩版登录](guide/geyser.md)
 * [服务器常见问题](guide/faq.md)
+* [Miso MCP 对接](guide/miso-mcp.md)
 * [关于服务器修改](guide/serveredit.md)
 * [客户端优化指南](guide/optimization.md)
 * [我的世界JAVA版安装教程](JAVAguide/0.md)
