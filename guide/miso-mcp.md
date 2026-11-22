@@ -1,17 +1,17 @@
 # Miso MCP 对接指南
 
 ::: info 开放状态
-Miso MCP 已在隔离服通过联调，公网接口暂未开放。下文是开放后供 QQ 机器人维护者使用的对接方式。
+Miso MCP 已开放。支持配置 HTTPS 地址和请求头的 MCP 客户端均可接入，包括 QQ 机器人、聊天应用和自建工具。接入方可联系服主获取配对密钥。
 :::
 
-机器人可以替玩家查询远古之心的公开玩法、粘液科技道具和配方，以及远古档案馆已发布的建筑、团体、大事记和参观说明。玩家用自己的游戏账号在官网授权，问答从该玩家的灵感余额扣点。Miso 收到的是问题、随机会话号和本轮预算。相同授权下可以追问，匿名会话最多保留四轮，闲置 30 分钟后过期。
+接入方可以替玩家查询远古之心的公开玩法、粘液科技道具和配方，以及远古档案馆已发布的建筑、团体、大事记和参观说明。玩家用自己的游戏账号在官网授权，问答从该玩家的灵感余额扣点。Miso 收到的是问题、随机会话号和本轮预算。相同授权下可以追问，匿名会话最多保留四轮，闲置 30 分钟后过期。
 
 ## 给每位玩家单独授权
 
-1. 机器人维护者从服主处取得机器人专用密钥，保存在机器人后台。用它调用 `POST https://coreages.com/api/miso/pair/start`，请求头为 `Authorization: Bearer <机器人密钥>`。
-2. 将返回的 `url` 和八位 `confirmationCode` 私发给这位玩家。`code` 和 `proof` 留在机器人后台，配对有效期为 5 分钟。
+1. 接入方从服主处取得机器人专用密钥，保存在后台。用它调用 `POST https://coreages.com/api/miso/pair/start`，请求头为 `Authorization: Bearer <机器人密钥>`。
+2. 将返回的 `url` 和八位 `confirmationCode` 私发给这位玩家。`code` 和 `proof` 留在接入方后台，配对有效期为 5 分钟。
 3. 玩家打开链接，用游戏账号登录官网，输入配对码，设置每日扣点上限和密钥有效期。玩家的游戏密码只填写在官网。
-4. 机器人后台用同一个机器人密钥调用 `POST /api/miso/pair/finish`，JSON 请求体包含原先的 `code` 和 `proof`。玩家还没确认时返回 HTTP 202，确认后返回 `token` 与 `expiresIn`。按 QQ 成员分别保存玩家令牌，调用时使用提问者自己的令牌。
+4. 接入方后台用同一个机器人密钥调用 `POST /api/miso/pair/finish`，JSON 请求体包含原先的 `code` 和 `proof`。玩家还没确认时返回 HTTP 202，确认后返回 `token` 与 `expiresIn`。为每位玩家单独保存令牌，调用时使用提问者自己的令牌。
 
 玩家可选 **7 天、30 天、90 天或永久**，默认 30 天。配对完成后，`expiresIn` 为有效秒数，永久令牌返回 `null`。玩家可在 [Miso 授权管理](https://coreages.com/api/miso/connect) 查看有效期、余额和最近消费。撤销授权、重新配对或更改游戏密码都会使旧令牌失效，包括永久令牌。
 
@@ -26,7 +26,7 @@ curl https://coreages.com/api/miso/mcp \
   -H "Authorization: Bearer ${MISO_PLAYER_TOKEN}" \
   -H 'Content-Type: application/json' \
   -H 'Accept: application/json, text/event-stream' \
-  --data '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2025-11-25","capabilities":{},"clientInfo":{"name":"qq-bot","version":"1.0.0"}}}'
+  --data '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2025-11-25","capabilities":{},"clientInfo":{"name":"miso-client","version":"1.0.0"}}}'
 ```
 
 初始化后发送 `notifications/initialized`，再用 `tools/list` 获取工具定义。`tools/call` 调用 `ask_miso` 时，请求体如下。
@@ -50,11 +50,11 @@ curl https://coreages.com/api/miso/mcp \
 
 ## 直接使用 HTTP
 
-机器人也可以请求 `POST https://coreages.com/api/miso/ask`。请求头和 MCP 一样使用玩家令牌，请求体只传 `requestId` 和 `question`。成功响应含 `answer` 和本轮实际扣点 `spent`。
+客户端也可以请求 `POST https://coreages.com/api/miso/ask`。请求头和 MCP 一样使用玩家令牌，请求体只传 `requestId` 和 `question`。成功响应含 `answer` 和本轮实际扣点 `spent`。
 
-| 状态 | 机器人应如何处理 |
+| 状态 | 客户端应如何处理 |
 | --- | --- |
 | 401 | 令牌已失效，让玩家重新配对。 |
 | 402 | 灵感余额或玩家设定的每日授权额度不足。 |
-| 409 | 同编号请求已在处理、已结算或被取消。先检查机器人端记录，避免为同一次提问另起编号。MCP 通常在 `result.isError` 中返回这类错误。 |
+| 409 | 同编号请求已在处理、已结算或被取消。先检查客户端记录，避免为同一次提问另起编号。MCP 通常在 `result.isError` 中返回这类错误。 |
 | 429 | 调用过密，稍后再试。每个玩家每分钟最多提交 8 次。 |
