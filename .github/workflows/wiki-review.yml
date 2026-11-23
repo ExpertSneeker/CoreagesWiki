@@ -1,0 +1,70 @@
+name: Wiki Agent review
+
+on:
+  workflow_run:
+    workflows: ['Wiki PR CI']
+    types: [completed]
+
+permissions: {}
+
+jobs:
+  review:
+    if: >-
+      github.repository == 'ExpertSneeker/CoreagesWiki' &&
+      github.event.workflow_run.event == 'pull_request' &&
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.head_repository.full_name == github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    # Create this environment with a deployment branch policy permitting only main.
+    environment: wiki-review
+    permissions:
+      contents: read
+      pull-requests: read
+      actions: read
+    outputs:
+      pr: ${{ steps.review.outputs.pr }}
+      head: ${{ steps.review.outputs.head }}
+      base: ${{ steps.review.outputs.base }}
+      approved: ${{ steps.review.outputs.approved }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - name: Review docs at the tested revision
+        id: review
+        env:
+          GH_TOKEN: ${{ github.token }}
+          OPENAI_API_KEY: ${{ secrets.WIKI_REVIEW_OPENAI_API_KEY }}
+          REVIEW_MODEL: ${{ vars.WIKI_REVIEW_MODEL }}
+        run: python3 .github/wiki/review.py review
+
+  merge:
+    if: >-
+      vars.WIKI_AUTO_MERGE == 'true' &&
+      needs.review.outputs.approved == 'true'
+    needs: review
+    # This separate environment must also be restricted to main.
+    environment: wiki-auto-merge
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    concurrency:
+      group: wiki-auto-merge
+      cancel-in-progress: false
+    permissions:
+      contents: write
+      pull-requests: read
+      actions: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - name: Merge the reviewed revision and start the existing publish workflow
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ needs.review.outputs.pr }}
+          REVIEWED_HEAD: ${{ needs.review.outputs.head }}
+          REVIEWED_BASE: ${{ needs.review.outputs.base }}
+        run: python3 .github/wiki/review.py merge
